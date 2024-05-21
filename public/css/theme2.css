@@ -1,0 +1,16 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .resume {
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #000;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    color: #555;
+  }
+  

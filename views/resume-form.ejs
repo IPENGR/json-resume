@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Resume Form</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Form</h1>
+    <form id="resumeForm" action="/generate" method="POST">
+      <nav>
+        <ul>
+          <li><a href="#" onclick="showSection('basics')">Basics</a></li>
+          <li><a href="#" onclick="showSection('work')">Work</a></li>
+          <li><a href="#" onclick="showSection('education')">Education</a></li>
+          <li><a href="#" onclick="showSection('awards')">Awards</a></li>
+          <li><a href="#" onclick="showSection('certificates')">Certificates</a></li>
+          <li><a href="#" onclick="showSection('publications')">Publications</a></li>
+          <li><a href="#" onclick="showSection('volunteer')">Volunteer</a></li>
+        </ul>
+      </nav>
+
+      <div id="basics" class="section active">
+        <h2>Basics</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="basics[name]" required><br><br>
+        <label for="label">Label:</label>
+        <input type="text" id="label" name="basics[label]" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="basics[email]" required><br><br>
+        <label for="image">Image URL:</label>
+        <input type="text" id="image" name="basics[image]"><br><br>
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="basics[url]"><br><br>
+        <label for="summary">Summary:</label><br>
+        <textarea id="summary" name="basics[summary]" rows="4" cols="50" required></textarea><br><br>
+        <h3>Profiles</h3>
+        <label for="network">Network:</label>
+        <input type="text" id="network" name="basics[profiles][network]"><br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="basics[profiles][username]"><br><br>
+        <label for="profileUrl">Profile URL:</label>
+        <input type="text" id="profileUrl" name="basics[profiles][url]"><br><br>
+      </div>
+
+      <!-- <div id="work" class="section">
+        <h2>Work</h2>
+        <label for="workName">Company Name:</label>
+        <input type="text" id="workName" name="work[name]" required><br><br>
+        <label for="position">Position:</label>
+        <input type="text" id="position" name="work[position]" required><br><br>
+        <label for="workUrl">Company URL:</label>
+        <input type="text" id="workUrl" name="work[url]"><br><br>
+        <label for="workStartDate">Start Date:</label>
+        <input type="date" id="workStartDate" name="work[startDate]" required><br><br>
+        <label for="workEndDate">End Date:</label>
+        <input type="date" id="workEndDate" name="work[endDate]"><br><br>
+        <label for="workSummary">Summary:</label><br>
+        <textarea id="workSummary" name="work[summary]" rows="4" cols="50" required></textarea><br><br>
+        <h3>Highlights</h3>
+        <label for="workHighlights">Highlight:</label>
+        <textarea id="workHighlights" name="work[highlights]" rows="4" cols="50"></textarea><br><br>
+      </div>
+
+      <div id="education" class="section">
+        <h2>Education</h2>
+        <label for="institution">Institution:</label>
+        <input type="text" id="institution" name="education[institution]" required><br><br>
+        <label for="area">Area of Study:</label>
+        <input type="text" id="area" name="education[area]" required><br><br>
+        <label for="studyType">Study Type:</label>
+        <input type="text" id="studyType" name="education[studyType]" required><br><br>
+        <label for="educationStartDate">Start Date:</label>
+        <input type="date" id="educationStartDate" name="education[startDate]" required><br><br>
+        <label for="educationEndDate">End Date:</label>
+        <input type="date" id="educationEndDate" name="education[endDate]"><br><br>
+        <label for="score">Score:</label>
+        <input type="text" id="score" name="education[score]"><br><br>
+      </div>
+
+      <div id="awards" class="section">
+        <h2>Awards</h2>
+        <label for="title">Title:</label>
+        <input type="text"  for="title" id="title" name="awards[title]" required><br><br>
+        <label for="date">Date:</label> >
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="awards[date]" required><br><br>
+        <label for="awarder">Awarder:</label>
+        <input type="text" id="awarder" name="awards[awarder]" required><br><br>
+        <label for="awardSummary">Summary:</label><br>
+        <textarea id="awardSummary" name="awards[summary]" rows="4" cols="50" required></textarea><br><br>
+      </div>
+
+      <div id="certificates" class="section">
+        <h2>Certificates</h2>
+        <label for="certificateName">Certificate Name:</label>
+        <input type="text" id="certificateName" name="certificates[name]" required><br><br>
+        <label for="certificateDate">Date:</label>
+        <input type="date" id="certificateDate" name="certificates[date]" required><br><br>
+        <label for="issuer">Issuer:</label>
+        <input type="text" id="issuer" name="certificates[issuer]" required><br><br>
+        <label for="certificateUrl">Certificate URL:</label>
+        <input type="text" id="certificateUrl" name="certificates[url]"><br><br>
+      </div>
+
+      <div id="publications" class="section">
+        <h2>Publications</h2>
+        <label for="publicationName">Publication Name:</label>
+        <input type="text" id="publicationName" name="publications[name]" required><br><br>
+        <label for="publisher">Publisher:</label>
+        <input type="text" id="publisher" name="publications[publisher]" required><br><br>
+        <label for="releaseDate">Release Date:</label>
+        <input type="date" id="releaseDate" name="publications[releaseDate]" required><br><br>
+        <label for="publicationUrl">Publication URL:</label>
+        <input type="text" id="publicationUrl" name="publications[url]"><br><br>
+        <label for="publicationSummary">Summary:</label><br>
+        <textarea id="publicationSummary" name="publications[summary]" rows="4" cols="50" required></textarea><br><br>
+      </div>
+
+      <div id="volunteer" class="section">
+        <h2>Volunteer</h2>
+        <label for="organization">Organization:</label>
+        <input type="text" id="organization" name="volunteer[organization]" required><br><br>
+        <label for="volunteerPosition">Position:</label>
+        <input type="text" id="volunteerPosition" name="volunteer[position]" required><br><br>
+        <label for="volunteerStartDate">Start Date:</label>
+        <input type="date" id="volunteerStartDate" name="volunteer[startDate]" required><br><br>
+        <label for="volunteerEndDate">End Date:</label>
+        <input type="date" id="volunteerEndDate" name="volunteer[endDate]"><br><br>
+        <label for="volunteerSummary">Summary:</label><br>
+        <textarea id="volunteerSummary" name="volunteer[summary]" rows="4" cols="50" required></textarea><br><br>
+        <h3>Highlights</h3>
+        <label for="volunteerHighlights">Highlight:</label>
+        <textarea id="volunteerHighlights" name="volunteer[highlights]" rows="4" cols="50"></textarea><br><br>
+      </div> -->
+
+      <button type="submit">Generate Resume</button>
+    </form>
+  </div>
+
+  <script>
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(sectionId).classList.add('active');
+    }
+  </script>
+</body>
+</html>
+

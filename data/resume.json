@@ -1,0 +1,164 @@
+{
+    "basics": {
+      "name": "Sampath Velupula",
+      "label": "Software Engineering",
+      "image": "",
+      "email": "kumarsampath.ip@gmail.com",
+      "url": "https://github.com/sampath-velupula",
+      "summary": "Experienced software engineer/lead adept in ML, data science/engineering, full-stack development, driving efficient and innovative software solutions.",
+      "profiles": [
+        {
+          "network": "LinkedIN",
+          "username": "sampath-velupula",
+          "url": "https://www.linkedin.com/in/sampath-velupula-5322461/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Yahoo Inc.",
+        "position": "Yahoo Inc. Principal/Lead Engineer",
+        "url": "https://dev.flurry.com",
+        "startDate": "2022-05-01",
+        "endDate": "",
+        "summary": "Results-driven engineering manager with a successful track record at Flurry Mobile Analytics, driving teams to deliver high-quality software solutions for mobile analytics and data-driven insights",
+        "highlights": [
+          "Led a team of software engineers and data engineers in the development of a data-driven product, resulting in a 20% increase in user engagement and revenue.",
+          "Experienced in leading cross-functional teams, fostering collaboration, and ensuring successful project outcomes.",
+          "Proficient in setting technical direction, defining best practices, and driving innovation.",
+          "Increased team productivity by 20% through the implementation of agile practices.",
+          "Worked closely with product managers, designers, and data scientists to build comprehensive roadmaps and define strategic goals.",
+          "Experienced in conducting root cause analysis to address bottlenecks and enhance efficiency."
+        ]
+      },
+      {
+        "name": "Yahoo Inc.",
+        "position": "Yahoo Inc. ML Engineer",
+        "url": "https://dev.flurry.com",
+        "startDate": "2019-04-15",
+        "endDate": "2022-05-01",
+        "summary": "Worked for Flurry Mobile Analytics used in more than one million apps. (250K Developers, 1 Million Apps. 2.6 Billion Devices, 10 Billion Daily Sessions)",
+        "highlights": [
+          "Developed new Machine Learning models and features to create new recommendation algorithms or improve existing algorithms",
+          "Mined vast amount of data to gain insights from customer behavior",
+          "Created data jobs to generate Machine Learning features, build and train new models, run experiments to validate and launch new models",
+          "Responsible for the production system running Machine Learning models",
+          "Deep understanding of data engineering practices both in modern data lakes and traditional data warehouse eco systems that are scalable for Structured, Semi-structured and unstructured data",
+          "Experience with machine learning techniques and algorithms (at least 4 of the following): factorization machines/SVM, k-NN, Naive Bayes, Clustering, Regression (OLS, Logistic, MNL), Decision Forests/Trees/Classifiers, Linear and Nonlinear Optimization",
+          "Expertise in deep learning frameworks such as TensorFlow, PyTorch, MXNet and Apache Spark (SQL, MLlib, Streaming)",
+          "Worked with large scale data processing (Hive, Airflow, Spark, Hadoop, Map-reduce)"
+        ]
+      },
+      {
+        "name": "Yahoo Inc.",
+        "position": "Yahoo Inc. Senior Software Engineer",
+        "url": "https://www.adtech.yahooinc.com/",
+        "startDate": "2016-05-01",
+        "endDate": "2019-04-15",
+        "summary": "YAP (Yahoo's supply-side platform)",
+        "highlights": [
+          "Built VPAID JavaScript player to serve video ads with all functionalities supported by VPAID and VAST specs.",
+          "Designed and Developed API gateway with Node.js, Express.js, Redis, MongoDB to handle Authentication, Authorization, Rate Limiting, Caching, Logging, Analytics, Metrics and Unified API control",
+          "Developed Microservices with Java, Elide, GraphQL, MySQL, MongoDB, Druid and ElasticSearch",
+          "Worked on React.js SPA application with Redux, React Router, Webpack, Bootstrap, and ES6.",
+          "Worked on building scalable pipelines using Spark, Databricks, and Kafka; managing data storage with HDFS; optimizing processes through MapReduce; and orchestrating workflows with Airflow.",
+          "Worked with Git, Screwdriver, Docker, Kubernetes and AWS EKS"
+        ]
+      },
+      {
+        "name": "Certent Inc.",
+        "position": "Certent Inc. Senior Software Engineer",
+        "url": "https://insightsoftware.com/certent/",
+        "startDate": "2007-02-10",
+        "endDate": "2016-04-30",
+        "summary": "Certent (previously Equity Administration Solutions Inc.) combines world-class financial and SEC reporting along with a robust administration platform and participant portal for grant delivery, stock transactions and notifications. Certent’s web-based collaboration platform has redefined the way companies manage and report on equity compensation and revolutionized the way stock administration is done.",
+        "highlights": [
+          "UI/UX Makeover – (Angular.js, jQuery, ui-router, ng-grid, bootstrap, protractor, angular-charts)",
+          "Notifications Module – MEAN (MongoDB, Express.js, Angular.js, Node.js), Socket.IO",
+          "Report Engine – Angular, D3.js, Java, Spring Boot, Oracle",
+          "Automation Framework – Java, TestNG, Selenium WebDriver, RESTAssured, JMeter, Appium",
+          "Section 16 Reporting – ASP.NET Web Forms, ADO.NET, ODP, Oracle",
+          "Reports/Services – Spring Batch framework, Java"
+        ]
+      },
+      {
+        "name": "Marlabs, Inc.",
+        "position": "Marlabs, Inc. Software Engineer",
+        "url": "https://www.builderhomesite.com/",
+        "startDate": "2006-05-10",
+        "endDate": "2007-02-01",
+        "summary": "Designed and developed Connection Time Website (CTW). CTW is used to integrate with the service provider systems to develop partnership deals with customers for each of the communities. Windows service is used to update the Providers, Buyers, Hierarchy and addresses using the data feeds provided.",
+        "highlights": [
+          "Developed the administration web application and consumer web interfaces using ASP.NET 2.0 and C#.",
+          "Worked on the modules implementing the business logic, data model and service model in C# and ADO.NET.",
+          "Developed a Windows Service for processing the provider information, parsing the XML & CSV files and calling an XML Web Service.",
+          "Designed and developed report generation module using LogiXML Reporting Services."
+        ]
+      },
+      {
+        "name": "Stratum Global Inc.",
+        "position": "Stratum Global Inc. Application Developer",
+        "url": "https://www.stratumglobal.com",
+        "startDate": "2005-06-15",
+        "endDate": "2006-04-30",
+        "summary": "Stratum Global provides a complete integrated enterprise RFID software solution suite called TagNet.",
+        "highlights": [
+          "Developed, engineered and implemented TagMap™ application deployed on an RFID handheld computer/reader combination.",
+          "Developed TagTrack™ application for Inventory Location Management using C#."
+        ]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Whitebox Learning",
+        "position": "Founder",
+        "url": "http://www.whitebox-learning.com/",
+        "startDate": "2012-01-01",
+        "endDate": "2016-12-31",
+        "summary": "Developed comprehensive training programs tailored for both corporate teams and individual IT professionals, focusing on automation testing, CI/CD, and front-end development. These programs were designed to equip emerging talents with essential skills and knowledge in these areas, empowering them to excel in the dynamic IT industry."
+      }
+    ],
+    "education": [
+      {
+        "institution": "North Dakota State University",
+        "url": "https://ndsu.edu/",
+        "area": "Computer Science",
+        "studyType": "Masters",
+        "startDate": "2003-01-01",
+        "endDate": "2006-01-01",
+        "score": "3.6",
+        "courses": []
+      }
+    ],
+    "awards": [
+      {
+        "title": "AMF (All Member Focused) Award",
+        "date": "2019-01-01",
+        "awarder": "Yahoo, Inc.",
+        "summary": "Live NFL Streaming Project."
+      }
+    ],
+    "certificates": [
+      {
+        "name": "SCJP",
+        "date": "2006-01-01",
+        "issuer": "Sun Microsystems"
+      },
+      {
+        "name": "MCAD",
+        "date": "2006-01-01",
+        "issuer": "Microsoft"
+      },
+      {
+        "name": "AWS",
+        "date": "2023-01-01",
+        "issuer": "AWS"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Tools to Aid Knowledge Management for Conference Resources",
+        "publisher": "North Dakota"
+      }
+    ]
+}  
